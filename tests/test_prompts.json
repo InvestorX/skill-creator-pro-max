@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "intent": "毎月の売上CSVファイルを読み込んで、地域別の合計を出し、エクセルにグラフ付きでレポート出力するスキルを作って",
+        "expected_category": "document_generation",
+        "expected_template": "xlsx"
+    },
+    {
+        "id": 2,
+        "intent": "特定ディレクトリ内の全画像ファイルの解像度を半分にリサイズしてPNG変換するスクリプト",
+        "expected_category": "system_automation",
+        "expected_python": true
+    },
+    {
+        "id": 3,
+        "intent": "暗号通貨の価格推移をリアルタイムで表示する超かっこいいサイバーパンク風のReactダッシュボード作って",
+        "expected_category": "frontend_ui",
+        "expected_react": true,
+        "expected_aesthetic": "cyberpunk"
+    },
+    {
+        "id": 4,
+        "intent": "ユーザーから入力された長文データをフィルタリングして独自アルゴで圧縮するChrome拡張機能。処理が重いからWASMで。",
+        "expected_category": "frontend_ui",
+        "expected_chrome_extension": true,
+        "expected_wasm": true
+    }
+]

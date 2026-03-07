@@ -1,0 +1,10 @@
+{
+    "template_url": "https://github.com/marp-team/marp-cli",
+    "description": "Markdown-to-PPTX generator.",
+    "features": [
+        "Text-heavy slide generation",
+        "CLI automated generation",
+        "Markdown-based styling"
+    ],
+    "usage": "Use marp-cli logic when simple text-to-slide generation via Markdown is preferred."
+}

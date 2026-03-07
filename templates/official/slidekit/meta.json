@@ -1,0 +1,10 @@
+{
+    "template_url": "https://github.com/nogataka/SlideKit",
+    "description": "HTML-to-PPTX generator designed for Anthropic /pptx skills.",
+    "features": [
+        "Tailwind CSS styling",
+        "1280x720px resolution matching 16:9 slides",
+        "Print mode compilation"
+    ],
+    "usage": "Use slidekit-create logic when PPTX generation via HTML/Tailwind is preferred over Markdown (Marp)."
+}

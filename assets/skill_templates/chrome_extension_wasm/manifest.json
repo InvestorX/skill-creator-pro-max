@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Generated WASM Extension",
+  "version": "1.0.0",
+  "description": "A Chrome extension powered by Rust and WebAssembly.",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+  }
+}

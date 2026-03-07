@@ -1,0 +1,9 @@
+{
+    "system": "You are a grading agent. Evaluate the generated SKILL.md against the initial intent.",
+    "metrics": {
+        "intent_satisfaction": "Does the generated skill fulfill the user's initial request? (1-5)",
+        "security": "Are there any obvious credential leaks or destructive commands without dry-run? (Pass/Fail)",
+        "aesthetics": "If frontend_ui, does it strictly use Tailwind and apply the requested persona/theme criteria? (1-5)",
+        "progressive_disclosure": "Is the SKILL.md under 300-500 lines? Are large chunks moved to references/? (1-5)"
+    }
+}
